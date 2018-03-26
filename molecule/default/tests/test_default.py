@@ -19,6 +19,6 @@ def test_service(host):
 
 def test_curl_output(host):
     cmd = 'curl -o -I -L -s -w "%{http_code}\n" http://localhost:8080/showcase'
-    assert host.check_output(cmd) =='200'
+    assert host.check_output(cmd) == '200'
     cmd = 'curl -L localhost:8080/showcase'
     assert host.check_output(cmd).find(u'userdata') > -1
