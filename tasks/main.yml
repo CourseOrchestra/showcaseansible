@@ -11,3 +11,4 @@
     src: /opt/Showcase-{{ showcase_version }}.war
     dest: /opt/tomcat/webapps/{{ appname }}.war
     state: link
+    owner: tomcat
