@@ -1,4 +1,4 @@
-Tomcat
+Showcase
 =========
 
 [![Build Status](https://ci.corchestra.ru/buildStatus/icon?job=tomcatansible/master)](https://ci.corchestra.ru/job/showcaseansible/job/master/)
