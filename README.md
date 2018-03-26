@@ -1,7 +1,7 @@
 Showcase
 =========
 
-[![Build Status](https://ci.corchestra.ru/buildStatus/icon?job=tomcatansible/master)](https://ci.corchestra.ru/job/showcaseansible/job/master/)
+[![Build Status](https://ci.corchestra.ru/buildStatus/icon?job=showcaseansible/master)](https://ci.corchestra.ru/job/showcaseansible/job/master/)
 
 Installation of [Showcase](https://corchestra.ru/wiki/index.php?title=Showcase) platform in Tomcat. This role should be run after [CourseOrchestra.tomcat](https://galaxy.ansible.com/CourseOrchestra/tomcat/).
 
