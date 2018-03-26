@@ -1,0 +1,4 @@
+---
+showcase_build: 85
+showcase_url: https://artifactory.corchestra.ru/artifactory/corchestra-dev/{{ showcase_build }}/showcase-6.1-SNAPSHOT.zip
+showcase_version: 6.1b{{ showcase_build }}

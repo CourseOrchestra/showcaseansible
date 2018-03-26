@@ -1,0 +1,13 @@
+---
+- name: download showcase war
+  get_url:
+    url: "{{ showcase_url }}"
+    dest: /opt/Showcase-{{ showcase_version }}.war
+    mode: "0644"
+    owner: tomcat
+
+- name: copy showcase to webapps
+  file:
+    src: /opt/Showcase-{{ showcase_version }}.war
+    dest: /opt/tomcat/webapps/{{ appname }}.war
+    state: link

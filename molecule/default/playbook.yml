@@ -1,0 +1,16 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: ansiblebit.oracle-java
+    - role: CourseOrchestra.tomcat
+    - role: showcaseansible
+  tasks:
+    - name: install curl for testing purposes
+      apt:
+        name: curl
+
+    - name: start tomcat service
+      service:
+        name: tomcat
+        state: started
