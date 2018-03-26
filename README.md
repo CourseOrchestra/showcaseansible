@@ -16,6 +16,7 @@ Role Variables
 --------------
 
 * showcase_build: Showcase build number
+* appname: name of webapp to be installed (default: showcase)
 
 Example Playbook
 ----------------
